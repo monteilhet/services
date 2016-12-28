@@ -118,6 +118,29 @@ chkconfig NetworkManager
 
 ```
 
+## system 
+
+*systemd*
+
+```bash
+$ systemctl poweroff
+### <=> init 0
+$ systemctl reboot
+### <=> init 6
+
+```
+
+*sysvinit*
+
+
+```bash
+init 0  # poweroff
+init 6  # reboot
+
+
+```
+
+
 
 # Tips
 
