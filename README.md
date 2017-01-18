@@ -12,8 +12,9 @@ https://www.digitalocean.com/community/tutorials/how-to-use-systemctl-to-manage-
 
 **sysvinit** was derived and inherited from System V Unix systems (System V init)
 
+---
 
-# Commands
+# commands
 
 ## status
 
@@ -118,7 +119,7 @@ chkconfig NetworkManager
 
 ```
 
-## system 
+## system control
 
 *systemd*
 
@@ -159,8 +160,15 @@ else
 fi
 ```
 
-## How to daemonize a process
+## How to daemonize a process
 
+### systemd
+
++ http://www.linuxtricks.fr/wiki/systemd-les-commandes-essentielles
++ https://alan-mushi.github.io/2014/10/26/execute-an-interactive-script-at-boot-with-systemd.html
+
+
+### sysvinit
 
 http://codingfreak.blogspot.com/2012/03/daemon-izing-process-in-linux.html
 
